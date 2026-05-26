@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ran Cao" />
+    <meta
+      name="description"
+      content="Ran Cao's personal homepage for Project 1, including projects, skills, and contact information."
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ran Cao | Personal Homepage</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar" aria-label="Main navigation">
+        <a class="logo" href="./index.html">Ran Cao</a>
+        <div class="nav-links">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./ai.html">AI Page</a>
+        </div>
+        <button class="theme-button" type="button" data-theme-toggle>Dark Mode</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-text">
+          <p class="eyebrow">Computer Science Student · Software Developer</p>
+          <h1 class="hero-title">Hi, I am Ran Cao. I build clean and useful web projects.</h1>
+          <p class="hero-description">
+            This homepage introduces my background, technical interests, and selected projects.
+            I am interested in backend development, full-stack applications, and practical
+            software that solves real user problems.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#projects">View Projects</a>
+            <a class="secondary-button" href="./about.html">More About Me</a>
+          </div>
+        </div>
+        <div class="profile-card">
+          <img
+            class="profile-image"
+            src="./images/profile.svg"
+            alt="Illustration of a developer sitting with a laptop"
+          />
+          <h2>Project 1 Homepage</h2>
+          <p>Vanilla HTML, CSS, and ES6 modules.</p>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, responsive layouts, and accessibility.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Backend</h3>
+            <p>Node.js, Express, databases, APIs, and server-side project structure.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <p>GitHub, VS Code, ESLint, Prettier, and browser developer tools.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading-row">
+          <h2 id="projects-heading">Projects</h2>
+          <div class="filter-buttons" aria-label="Project filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="web">Web</button>
+            <button class="filter-button" type="button" data-filter="backend">Backend</button>
+            <button class="filter-button" type="button" data-filter="mobile">Mobile</button>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="web">
+            <img
+              src="./images/project-web.svg"
+              alt="Browser window illustration for a portfolio website project"
+            />
+            <h3>Portfolio Homepage</h3>
+            <p>A responsive personal website built with semantic HTML and organized CSS.</p>
+          </article>
+          <article class="project-card" data-category="backend">
+            <img
+              src="./images/project-api.svg"
+              alt="Server and database illustration for a backend API project"
+            />
+            <h3>Workout Tracker API</h3>
+            <p>A backend project that stores workouts, user progress, and exercise logs.</p>
+          </article>
+          <article class="project-card" data-category="mobile">
+            <img
+              src="./images/project-mobile.svg"
+              alt="Phone illustration for a mobile app project"
+            />
+            <h3>Music App</h3>
+            <p>A mobile app concept with multiple screens, pagination, and media content.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section contact-section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>
+          I am currently building my software engineering portfolio and improving my project
+          quality through clean code, testing, and better design.
+        </p>
+        <a class="primary-button" href="mailto:caoran213@gmail.com">Email Me</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Ran Cao. Built for Project 1.</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
