@@ -8,6 +8,8 @@ Ran Cao
 
 Add the course Canvas or class website link here.
 
+Review: Course link is missing here
+
 ## Project Objective
 
 The objective of this project is to create a personal homepage using vanilla HTML5, CSS3, and ES6 JavaScript modules. The site introduces my background, skills, projects, and includes an AI generated page. The project does not use a backend, jQuery, React, Vue, or component libraries.
@@ -21,6 +23,8 @@ The objective of this project is to create a personal homepage using vanilla HTM
 ## Screenshot
 
 Add your screenshot here after running the site.
+
+Review: Screenshot placeholder text not removed
 
 Example:
 
